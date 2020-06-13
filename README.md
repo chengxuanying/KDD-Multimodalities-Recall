@@ -25,14 +25,9 @@ This is our solution for KDD Cup 2020. We implemented a very neat and simple neu
 
 As mentioned in the step4, we adopted the local-linear-embedding-like method to further enhance the feature.
 
-<img src="images/lle.png" alt="image-20200613151309784" style="zoom:33%;" />
+<img src="images/lle.png" alt="image-20200613151309784" style="zoom:33%;" width="280" height="300"/>
 
 Given a ROI, we find the top3 most similar ROIs using KNN (K-nearest neighbour) method, then we summed them by weight 0.7, 0.2, 0.1 for keeping the same input numerical scale.
-
-1. **Use pairwise BERT**: When using Bert to scoring sentence pairs, using the [token] vector as output and followed by a single-layer neural network with dropout is recommended.
-2. **Use RankNet loss**: Cross-entropy is not the best choice for the ranking problem, because it aims to train the scoring function to be inf or -inf. Such loss benefits to the classification task, while in ranking task, we do not need extreme scores. What we need is more discriminative scores -  the document more related scores higher. That is the Ranknet loss. Limited to the GPU resource, our team can not implement RankNet loss in BERT. Instead, we selected the finetuned models performing well in ranking task, which is so-called underfitting model in the classification tasks. Such practice improves 0.03+ MAP@3 in the validation set.
-3. **Use 512 Tokens in Training**: For both training and inference phase, longer token means that the model can capture more semantic information. In our test, increasing token length from 256 to 512 can improve 0.02+ MAP@3.
-4. **Upsample Positive Items**: Similar to the classification task, you can upsample the positive (query, doc) pairs or reweight them in the loss item.
 
 ### Members
 
