@@ -7,7 +7,7 @@ This is our solution for KDD Cup 2020. We implemented a very neat and simple neu
 ### Features	
 
 * An end-to-end system with **zero feature engineering**.
-* Implement the model using **only 36 lines of code**.
+* Implemented the model using **only 36 lines of code**.
 * Performed data cleaning on the dataset according to self-designed rules, and removed the abnormal data with an significant negative impact on model performance. 
 * Designed a siamese light-BERT with 4-layers to **avoid up to 83% unnecessary computation cost for both training and inference** comparing to the full-percision BERT model.
 * **Training on fly**: our model can achieve SOTA performance in **less than 5 hours** using a single V100 GPU card.
@@ -31,7 +31,7 @@ Given a ROI, we find the top3 most similar ROIs using KNN (K-nearest neighbour) 
 
 ### Members
 
-This is a solo team which consisting of:
+This is a solo team which consists of:
 
 1. **Chengxuan Ying**, Dalian University of Technology (应承轩 大连理工大学)
 
