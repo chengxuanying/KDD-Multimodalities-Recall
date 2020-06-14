@@ -42,6 +42,7 @@ Thanks for [Weiwei Xu](http://www.cad.zju.edu.cn/home/weiweixu/weiweixu_en.htm),
 ### Links to Other Solutions
 
 * [KDD_WinnieTheBest](https://github.com/steven95421/KDD_WinnieTheBest) (Ranked 1st on the LB)
+* [Ai-Light](https://github.com/Ai-Light/KDD2020Multimodalities)
 
 ### Future Work
 
