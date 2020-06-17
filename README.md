@@ -1,6 +1,6 @@
 ## KDD-Multimodalities-Recall
 
-This is our solution for KDD Cup 2020. We implemented a very neat and simple neural ranking model based on siamese BERT[1] which **ranked FIRST among the solo teams** and ranked 12th among all teams on the final leaderboard.
+This is our solution for KDD Cup 2020. We implemented a very neat and simple neural ranking model based on siamese BERT[1] which **ranked FIRST among the solo teams** and ranked 12th among all teams on the final leaderboard. ![visitors](https://visitor-badge.glitch.me/badge?page_id=chengsyuan.KDD-Multimodalities-Recall)
 
 ##### Related Project: [WSDM-Adhoc-Document-Retrieval](https://github.com/chengsyuan/WSDM-Adhoc-Document-Retrieval)
 
