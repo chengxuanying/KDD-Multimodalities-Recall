@@ -35,7 +35,7 @@ This is a solo team which consists of:
 
 1. **Chengxuan Ying**, Dalian University of Technology (应承轩 大连理工大学)
 
-### Acknownledgment
+### Acknowledgment
 
 Thanks for [Weiwei Xu](http://www.cad.zju.edu.cn/home/weiweixu/weiweixu_en.htm), who provided a 4-GPU server.
 
